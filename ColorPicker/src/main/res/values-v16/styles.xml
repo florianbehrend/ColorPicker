@@ -1,0 +1,1745 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="transparent">@color/Red50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+    </style>
+
+    <style name="ToolbarDark" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="ToolbarLight" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ProgressBar">
+        <item name="colorAccent">@color/textColorBlack</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Picker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="colorAccent">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--    Color Styles   -->
+    <style name="Red50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red50primaryDarkColor</item>
+        <item name="colorAccent">@color/Red50primaryLightColor</item>
+        <item name="transparent">@color/Red50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red100primaryDarkColor</item>
+        <item name="colorAccent">@color/Red100primaryLightColor</item>
+        <item name="transparent">@color/Red100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red200primaryDarkColor</item>
+        <item name="colorAccent">@color/Red200primaryLightColor</item>
+        <item name="transparent">@color/Red200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red300primaryDarkColor</item>
+        <item name="colorAccent">@color/Red300primaryLightColor</item>
+        <item name="transparent">@color/Red300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red400primaryDarkColor</item>
+        <item name="colorAccent">@color/Red400primaryLightColor</item>
+        <item name="transparent">@color/Red400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red500primaryDarkColor</item>
+        <item name="colorAccent">@color/Red500primaryLightColor</item>
+        <item name="transparent">@color/Red500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red600primaryDarkColor</item>
+        <item name="colorAccent">@color/Red600primaryLightColor</item>
+        <item name="transparent">@color/Red600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red700primaryDarkColor</item>
+        <item name="colorAccent">@color/Red700primaryLightColor</item>
+        <item name="transparent">@color/Red700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red800primaryDarkColor</item>
+        <item name="colorAccent">@color/Red800primaryLightColor</item>
+        <item name="transparent">@color/Red800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Red900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Red900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Red900primaryDarkColor</item>
+        <item name="colorAccent">@color/Red900primaryLightColor</item>
+        <item name="transparent">@color/Red900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink50primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink50primaryLightColor</item>
+        <item name="transparent">@color/Pink50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink100primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink100primaryLightColor</item>
+        <item name="transparent">@color/Pink100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink200primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink200primaryLightColor</item>
+        <item name="transparent">@color/Pink200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink300primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink300primaryLightColor</item>
+        <item name="transparent">@color/Pink300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink400primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink400primaryLightColor</item>
+        <item name="transparent">@color/Pink400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink500primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink500primaryLightColor</item>
+        <item name="transparent">@color/Pink500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink600primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink600primaryLightColor</item>
+        <item name="transparent">@color/Pink600transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink700primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink700primaryLightColor</item>
+        <item name="transparent">@color/Pink700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink800primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink800primaryLightColor</item>
+        <item name="transparent">@color/Pink800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Pink900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Pink900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Pink900primaryDarkColor</item>
+        <item name="colorAccent">@color/Pink900primaryLightColor</item>
+        <item name="transparent">@color/Pink900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple50primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple50primaryLightColor</item>
+        <item name="transparent">@color/Purple50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple100primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple100primaryLightColor</item>
+        <item name="transparent">@color/Purple100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple200primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple200primaryLightColor</item>
+        <item name="transparent">@color/Purple200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple300primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple300primaryLightColor</item>
+        <item name="transparent">@color/Purple300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple400primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple400primaryLightColor</item>
+        <item name="transparent">@color/Purple400transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple500primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple500primaryLightColor</item>
+        <item name="transparent">@color/Purple500transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple600primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple600primaryLightColor</item>
+        <item name="transparent">@color/Purple600transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple700primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple700primaryLightColor</item>
+        <item name="transparent">@color/Purple700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple800primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple800primaryLightColor</item>
+        <item name="transparent">@color/Purple800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Purple900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Purple900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Purple900primaryDarkColor</item>
+        <item name="colorAccent">@color/Purple900primaryLightColor</item>
+        <item name="transparent">@color/Purple900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple50primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple50primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple50primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple100primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple100primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple100primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple200primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple200primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple200primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple300primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple300primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple300primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple400primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple400primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple400primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple400transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple500primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple500primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple500primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple500transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple600primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple600primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple600primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple600transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple700primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple700primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple700primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple800primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple800primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple800primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepPurple900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepPurple900primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepPurple900primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepPurple900primaryLightColor</item>
+        <item name="transparent">@color/DeepPurple900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo50primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo50primaryLightColor</item>
+        <item name="transparent">@color/Indigo50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo100primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo100primaryLightColor</item>
+        <item name="transparent">@color/Indigo100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo200primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo200primaryLightColor</item>
+        <item name="transparent">@color/Indigo200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo300primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo300primaryLightColor</item>
+        <item name="transparent">@color/Indigo300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo400primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo400primaryLightColor</item>
+        <item name="transparent">@color/Indigo400transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo500primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo500primaryLightColor</item>
+        <item name="transparent">@color/Indigo500transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo600primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo600primaryLightColor</item>
+        <item name="transparent">@color/Indigo600transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo700primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo700primaryLightColor</item>
+        <item name="transparent">@color/Indigo700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo800primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo800primaryLightColor</item>
+        <item name="transparent">@color/Indigo800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Indigo900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Indigo900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Indigo900primaryDarkColor</item>
+        <item name="colorAccent">@color/Indigo900primaryLightColor</item>
+        <item name="transparent">@color/Indigo900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue50primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue50primaryLightColor</item>
+        <item name="transparent">@color/Blue50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue100primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue100primaryLightColor</item>
+        <item name="transparent">@color/Blue100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue200primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue200primaryLightColor</item>
+        <item name="transparent">@color/Blue200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue300primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue300primaryLightColor</item>
+        <item name="transparent">@color/Blue300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue400primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue400primaryLightColor</item>
+        <item name="transparent">@color/Blue400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue500primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue500primaryLightColor</item>
+        <item name="transparent">@color/Blue500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue600primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue600primaryLightColor</item>
+        <item name="transparent">@color/Blue600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue700primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue700primaryLightColor</item>
+        <item name="transparent">@color/Blue700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue800primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue800primaryLightColor</item>
+        <item name="transparent">@color/Blue800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Blue900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Blue900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Blue900primaryDarkColor</item>
+        <item name="colorAccent">@color/Blue900primaryLightColor</item>
+        <item name="transparent">@color/Blue900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue50primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue50primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue50primaryLightColor</item>
+        <item name="transparent">@color/LightBlue50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue100primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue100primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue100primaryLightColor</item>
+        <item name="transparent">@color/LightBlue100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue200primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue200primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue200primaryLightColor</item>
+        <item name="transparent">@color/LightBlue200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue300primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue300primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue300primaryLightColor</item>
+        <item name="transparent">@color/LightBlue300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue400primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue400primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue400primaryLightColor</item>
+        <item name="transparent">@color/LightBlue400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue500primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue500primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue500primaryLightColor</item>
+        <item name="transparent">@color/LightBlue500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue600primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue600primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue600primaryLightColor</item>
+        <item name="transparent">@color/LightBlue600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue700primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue700primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue700primaryLightColor</item>
+        <item name="transparent">@color/LightBlue700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue800primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue800primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue800primaryLightColor</item>
+        <item name="transparent">@color/LightBlue800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightBlue900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightBlue900primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightBlue900primaryDarkColor</item>
+        <item name="colorAccent">@color/LightBlue900primaryLightColor</item>
+        <item name="transparent">@color/LightBlue900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan50primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan50primaryLightColor</item>
+        <item name="transparent">@color/Cyan50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan100primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan100primaryLightColor</item>
+        <item name="transparent">@color/Cyan100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan200primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan200primaryLightColor</item>
+        <item name="transparent">@color/Cyan200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan300primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan300primaryLightColor</item>
+        <item name="transparent">@color/Cyan300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan400primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan400primaryLightColor</item>
+        <item name="transparent">@color/Cyan400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan500primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan500primaryLightColor</item>
+        <item name="transparent">@color/Cyan500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan600primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan600primaryLightColor</item>
+        <item name="transparent">@color/Cyan600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan700primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan700primaryLightColor</item>
+        <item name="transparent">@color/Cyan700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan800primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan800primaryLightColor</item>
+        <item name="transparent">@color/Cyan800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Cyan900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Cyan900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Cyan900primaryDarkColor</item>
+        <item name="colorAccent">@color/Cyan900primaryLightColor</item>
+        <item name="transparent">@color/Cyan900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal50primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal50primaryLightColor</item>
+        <item name="transparent">@color/Teal50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal100primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal100primaryLightColor</item>
+        <item name="transparent">@color/Teal100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal200primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal200primaryLightColor</item>
+        <item name="transparent">@color/Teal200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal300primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal300primaryLightColor</item>
+        <item name="transparent">@color/Teal300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal400primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal400primaryLightColor</item>
+        <item name="transparent">@color/Teal400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal500primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal500primaryLightColor</item>
+        <item name="transparent">@color/Teal500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal600primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal600primaryLightColor</item>
+        <item name="transparent">@color/Teal600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal700primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal700primaryLightColor</item>
+        <item name="transparent">@color/Teal700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal800primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal800primaryLightColor</item>
+        <item name="transparent">@color/Teal800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Teal900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Teal900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Teal900primaryDarkColor</item>
+        <item name="colorAccent">@color/Teal900primaryLightColor</item>
+        <item name="transparent">@color/Teal900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green50primaryDarkColor</item>
+        <item name="colorAccent">@color/Green50primaryLightColor</item>
+        <item name="transparent">@color/Green50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green100primaryDarkColor</item>
+        <item name="colorAccent">@color/Green100primaryLightColor</item>
+        <item name="transparent">@color/Green100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green200primaryDarkColor</item>
+        <item name="colorAccent">@color/Green200primaryLightColor</item>
+        <item name="transparent">@color/Green200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green300primaryDarkColor</item>
+        <item name="colorAccent">@color/Green300primaryLightColor</item>
+        <item name="transparent">@color/Green300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green400primaryDarkColor</item>
+        <item name="colorAccent">@color/Green400primaryLightColor</item>
+        <item name="transparent">@color/Green400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green500primaryDarkColor</item>
+        <item name="colorAccent">@color/Green500primaryLightColor</item>
+        <item name="transparent">@color/Green500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green600primaryDarkColor</item>
+        <item name="colorAccent">@color/Green600primaryLightColor</item>
+        <item name="transparent">@color/Green600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green700primaryDarkColor</item>
+        <item name="colorAccent">@color/Green700primaryLightColor</item>
+        <item name="transparent">@color/Green700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green800primaryDarkColor</item>
+        <item name="colorAccent">@color/Green800primaryLightColor</item>
+        <item name="transparent">@color/Green800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Green900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Green900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Green900primaryDarkColor</item>
+        <item name="colorAccent">@color/Green900primaryLightColor</item>
+        <item name="transparent">@color/Green900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen50primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen50primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen50primaryLightColor</item>
+        <item name="transparent">@color/LightGreen50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen100primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen100primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen100primaryLightColor</item>
+        <item name="transparent">@color/LightGreen100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen200primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen200primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen200primaryLightColor</item>
+        <item name="transparent">@color/LightGreen200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen300primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen300primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen300primaryLightColor</item>
+        <item name="transparent">@color/LightGreen300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen400primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen400primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen400primaryLightColor</item>
+        <item name="transparent">@color/LightGreen400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen500primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen500primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen500primaryLightColor</item>
+        <item name="transparent">@color/LightGreen500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen600primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen600primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen600primaryLightColor</item>
+        <item name="transparent">@color/LightGreen600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen700primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen700primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen700primaryLightColor</item>
+        <item name="transparent">@color/LightGreen700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen800primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen800primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen800primaryLightColor</item>
+        <item name="transparent">@color/LightGreen800transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="LightGreen900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/LightGreen900primaryColor</item>
+        <item name="colorPrimaryDark">@color/LightGreen900primaryDarkColor</item>
+        <item name="colorAccent">@color/LightGreen900primaryLightColor</item>
+        <item name="transparent">@color/LightGreen900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime50primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime50primaryLightColor</item>
+        <item name="transparent">@color/Lime50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime100primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime100primaryLightColor</item>
+        <item name="transparent">@color/Lime100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime200primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime200primaryLightColor</item>
+        <item name="transparent">@color/Lime200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime300primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime300primaryLightColor</item>
+        <item name="transparent">@color/Lime300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime400primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime400primaryLightColor</item>
+        <item name="transparent">@color/Lime400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime500primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime500primaryLightColor</item>
+        <item name="transparent">@color/Lime500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime600primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime600primaryLightColor</item>
+        <item name="transparent">@color/Lime600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime700primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime700primaryLightColor</item>
+        <item name="transparent">@color/Lime700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime800primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime800primaryLightColor</item>
+        <item name="transparent">@color/Lime800transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Lime900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Lime900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Lime900primaryDarkColor</item>
+        <item name="colorAccent">@color/Lime900primaryLightColor</item>
+        <item name="transparent">@color/Lime900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow50primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow50primaryLightColor</item>
+        <item name="transparent">@color/Yellow50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow100primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow100primaryLightColor</item>
+        <item name="transparent">@color/Yellow100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow200primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow200primaryLightColor</item>
+        <item name="transparent">@color/Yellow200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow300primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow300primaryLightColor</item>
+        <item name="transparent">@color/Yellow300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow400primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow400primaryLightColor</item>
+        <item name="transparent">@color/Yellow400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow500primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow500primaryLightColor</item>
+        <item name="transparent">@color/Yellow500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow600primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow600primaryLightColor</item>
+        <item name="transparent">@color/Yellow600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow700primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow700primaryLightColor</item>
+        <item name="transparent">@color/Yellow700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow800primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow800primaryLightColor</item>
+        <item name="transparent">@color/Yellow800transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Yellow900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Yellow900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Yellow900primaryDarkColor</item>
+        <item name="colorAccent">@color/Yellow900primaryLightColor</item>
+        <item name="transparent">@color/Yellow900transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber50primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber50primaryLightColor</item>
+        <item name="transparent">@color/Amber50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber100primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber100primaryLightColor</item>
+        <item name="transparent">@color/Amber100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber200primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber200primaryLightColor</item>
+        <item name="transparent">@color/Amber200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber300primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber300primaryLightColor</item>
+        <item name="transparent">@color/Amber300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber400primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber400primaryLightColor</item>
+        <item name="transparent">@color/Amber400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber500primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber500primaryLightColor</item>
+        <item name="transparent">@color/Amber500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber600primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber600primaryLightColor</item>
+        <item name="transparent">@color/Amber600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber700primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber700primaryLightColor</item>
+        <item name="transparent">@color/Amber700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber800primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber800primaryLightColor</item>
+        <item name="transparent">@color/Amber800transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Amber900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Amber900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Amber900primaryDarkColor</item>
+        <item name="colorAccent">@color/Amber900primaryLightColor</item>
+        <item name="transparent">@color/Amber900transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange50primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange50primaryLightColor</item>
+        <item name="transparent">@color/Orange50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange100primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange100primaryLightColor</item>
+        <item name="transparent">@color/Orange100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange200primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange200primaryLightColor</item>
+        <item name="transparent">@color/Orange200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange300primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange300primaryLightColor</item>
+        <item name="transparent">@color/Orange300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange400primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange400primaryLightColor</item>
+        <item name="transparent">@color/Orange400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange500primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange500primaryLightColor</item>
+        <item name="transparent">@color/Orange500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange600primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange600primaryLightColor</item>
+        <item name="transparent">@color/Orange600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange700primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange700primaryLightColor</item>
+        <item name="transparent">@color/Orange700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange800primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange800primaryLightColor</item>
+        <item name="transparent">@color/Orange800transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Orange900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Orange900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Orange900primaryDarkColor</item>
+        <item name="colorAccent">@color/Orange900primaryLightColor</item>
+        <item name="transparent">@color/Orange900transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange50primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange50primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange50primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange100primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange100primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange100primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange200primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange200primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange200primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange300primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange300primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange300primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange400primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange400primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange400primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange500primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange500primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange500primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange600primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange600primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange600primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange600transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange700primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange700primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange700primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange700transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange800primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange800primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange800primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange800transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DeepOrange900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/DeepOrange900primaryColor</item>
+        <item name="colorPrimaryDark">@color/DeepOrange900primaryDarkColor</item>
+        <item name="colorAccent">@color/DeepOrange900primaryLightColor</item>
+        <item name="transparent">@color/DeepOrange900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown50primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown50primaryLightColor</item>
+        <item name="transparent">@color/Brown50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown100primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown100primaryLightColor</item>
+        <item name="transparent">@color/Brown100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown200primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown200primaryLightColor</item>
+        <item name="transparent">@color/Brown200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown300primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown300primaryLightColor</item>
+        <item name="transparent">@color/Brown300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown400primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown400primaryLightColor</item>
+        <item name="transparent">@color/Brown400transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown500primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown500primaryLightColor</item>
+        <item name="transparent">@color/Brown500transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown600primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown600primaryLightColor</item>
+        <item name="transparent">@color/Brown600transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown700primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown700primaryLightColor</item>
+        <item name="transparent">@color/Brown700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown800primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown800primaryLightColor</item>
+        <item name="transparent">@color/Brown800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Brown900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Brown900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Brown900primaryDarkColor</item>
+        <item name="colorAccent">@color/Brown900primaryLightColor</item>
+        <item name="transparent">@color/Brown900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey50primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey50primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey50primaryLightColor</item>
+        <item name="transparent">@color/Grey50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey100primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey100primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey100primaryLightColor</item>
+        <item name="transparent">@color/Grey100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey200primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey200primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey200primaryLightColor</item>
+        <item name="transparent">@color/Grey200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey300primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey300primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey300primaryLightColor</item>
+        <item name="transparent">@color/Grey300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey400primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey400primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey400primaryLightColor</item>
+        <item name="transparent">@color/Grey400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey500primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey500primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey500primaryLightColor</item>
+        <item name="transparent">@color/Grey500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey600primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey600primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey600primaryLightColor</item>
+        <item name="transparent">@color/Grey600transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey700primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey700primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey700primaryLightColor</item>
+        <item name="transparent">@color/Grey700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey800primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey800primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey800primaryLightColor</item>
+        <item name="transparent">@color/Grey800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="Grey900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/Grey900primaryColor</item>
+        <item name="colorPrimaryDark">@color/Grey900primaryDarkColor</item>
+        <item name="colorAccent">@color/Grey900primaryLightColor</item>
+        <item name="transparent">@color/Grey900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey50" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey50primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey50primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey50primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey50transparent</item>
+        <item name="textColor">@color/textColorBlack</item>"
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey100" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey100primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey100primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey100primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey100transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey200" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey200primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey200primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey200primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey200transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey300" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey300primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey300primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey300primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey300transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey400" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey400primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey400primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey400primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey400transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey500" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey500primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey500primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey500primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey500transparent</item>
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey600" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey600primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey600primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey600primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey600transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey700" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey700primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey700primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey700primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey700transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey800" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey800primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey800primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey800primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey800transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BlueGrey900" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/BlueGrey900primaryColor</item>
+        <item name="colorPrimaryDark">@color/BlueGrey900primaryDarkColor</item>
+        <item name="colorAccent">@color/BlueGrey900primaryLightColor</item>
+        <item name="transparent">@color/BlueGrey900transparent</item>
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+
+</resources>
