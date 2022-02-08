@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.library'
-    id 'maven-publish'
+    id 'com.github.dcendents.android-maven'
 }
 
 android {
@@ -38,16 +38,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
 
-}
-afterEvaluate {
-    publishing{
-        publications{
-            release(MavenPublication){
-                from components.release
-                groupId = 'com.itbehrend'
-                artifactId = 'color_picker'
-                version = '1.0'
-            }
-        }
-    }
 }
