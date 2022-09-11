@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +12,9 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatDialogFragment;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -59,9 +62,11 @@ public class ColorPicker extends AppCompatDialogFragment{
                 dialog.dismiss();
             }
         }).setPositiveButton("Apply", new DialogInterface.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 choose_color_listener.apply(colors.get(position)[1]);
+                choose_color_listener.getPrimaryColor(Color.valueOf(ContextCompat.getColor(getContext(), colors.get(position)[0])));
             }
         });
 
@@ -81,6 +86,7 @@ public class ColorPicker extends AppCompatDialogFragment{
 
     public interface Choose_Color_Listener{
         void apply(int color);
+        void getPrimaryColor(Color color);
     }
 
     public ArrayList<Integer[]> getColors() {

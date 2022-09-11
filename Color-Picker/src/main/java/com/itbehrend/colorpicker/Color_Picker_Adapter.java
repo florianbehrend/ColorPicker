@@ -71,7 +71,7 @@ public class Color_Picker_Adapter extends RecyclerView.Adapter<Color_Picker_Adap
                             lastSelected = color;
                         }
 
-                        int position = getAdapterPosition();
+                        int position = getBindingAdapterPosition();
                         if (position != RecyclerView.NO_POSITION){
                             clickListener.onItemClick(position);
                         }
