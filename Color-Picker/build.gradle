@@ -62,7 +62,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.florianbehrend'
                 artifactId = 'Color-Picker'
-                version = '1.3'
+                version = '1.4.0'
             }
         }
     }

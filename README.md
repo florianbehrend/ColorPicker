@@ -76,7 +76,7 @@ The callback runs only when the user taps **Apply** with a color selected. Tappi
 
 ### Applying the selected theme
 
-Every swatch has a matching theme named `R.style.<Family><Shade>`, for example `R.style.Blue700`. Each theme sets `colorPrimary`, `colorPrimaryDark`, `colorAccent`, and a custom `transparent` attribute.
+Every swatch has a matching **ThemeOverlay** named `R.style.<Family><Shade>`, for example `R.style.Blue700`. Each overlay has an empty parent and sets `colorPrimary`, `colorPrimaryDark`, `colorAccent`, `textColor`, and a custom `transparent` attribute. Because the parent is empty, applying it with `applyStyle` layers those colors on top of your existing base theme — works on both AppCompat and Material 3 hosts without dragging in a parent theme.
 
 Apply the theme before your UI is drawn:
 

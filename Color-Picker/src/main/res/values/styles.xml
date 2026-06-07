@@ -1,4 +1,4 @@
-﻿<resources>
+<resources>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -33,7 +33,7 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     
 <!--    Color Styles   -->
-    <style name="Red50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red50" parent="">
         <item name="colorPrimary">@color/Red50primaryColor</item>
         <item name="colorPrimaryDark">@color/Red50primaryDarkColor</item>
         <item name="colorAccent">@color/Red50primaryLightColor</item>
@@ -41,7 +41,7 @@
         <item name="textColor">@color/textColorBlack</item>
    </style>
 
-    <style name="Red100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red100" parent="">
         <item name="colorPrimary">@color/Red100primaryColor</item>
         <item name="colorPrimaryDark">@color/Red100primaryDarkColor</item>
         <item name="colorAccent">@color/Red100primaryLightColor</item>
@@ -49,7 +49,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Red200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red200" parent="">
         <item name="colorPrimary">@color/Red200primaryColor</item>
         <item name="colorPrimaryDark">@color/Red200primaryDarkColor</item>
         <item name="colorAccent">@color/Red200primaryLightColor</item>
@@ -57,7 +57,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Red300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red300" parent="">
         <item name="colorPrimary">@color/Red300primaryColor</item>
         <item name="colorPrimaryDark">@color/Red300primaryDarkColor</item>
         <item name="colorAccent">@color/Red300primaryLightColor</item>
@@ -65,7 +65,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Red400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red400" parent="">
         <item name="colorPrimary">@color/Red400primaryColor</item>
         <item name="colorPrimaryDark">@color/Red400primaryDarkColor</item>
         <item name="colorAccent">@color/Red400primaryLightColor</item>
@@ -73,7 +73,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Red500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red500" parent="">
         <item name="colorPrimary">@color/Red500primaryColor</item>
         <item name="colorPrimaryDark">@color/Red500primaryDarkColor</item>
         <item name="colorAccent">@color/Red500primaryLightColor</item>
@@ -81,7 +81,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Red600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red600" parent="">
         <item name="colorPrimary">@color/Red600primaryColor</item>
         <item name="colorPrimaryDark">@color/Red600primaryDarkColor</item>
         <item name="colorAccent">@color/Red600primaryLightColor</item>
@@ -89,7 +89,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Red700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red700" parent="">
         <item name="colorPrimary">@color/Red700primaryColor</item>
         <item name="colorPrimaryDark">@color/Red700primaryDarkColor</item>
         <item name="colorAccent">@color/Red700primaryLightColor</item>
@@ -97,7 +97,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Red800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red800" parent="">
         <item name="colorPrimary">@color/Red800primaryColor</item>
         <item name="colorPrimaryDark">@color/Red800primaryDarkColor</item>
         <item name="colorAccent">@color/Red800primaryLightColor</item>
@@ -105,7 +105,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Red900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Red900" parent="">
         <item name="colorPrimary">@color/Red900primaryColor</item>
         <item name="colorPrimaryDark">@color/Red900primaryDarkColor</item>
         <item name="colorAccent">@color/Red900primaryLightColor</item>
@@ -113,7 +113,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Pink50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink50" parent="">
         <item name="colorPrimary">@color/Pink50primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink50primaryDarkColor</item>
         <item name="colorAccent">@color/Pink50primaryLightColor</item>
@@ -121,7 +121,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Pink100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink100" parent="">
         <item name="colorPrimary">@color/Pink100primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink100primaryDarkColor</item>
         <item name="colorAccent">@color/Pink100primaryLightColor</item>
@@ -129,7 +129,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Pink200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink200" parent="">
         <item name="colorPrimary">@color/Pink200primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink200primaryDarkColor</item>
         <item name="colorAccent">@color/Pink200primaryLightColor</item>
@@ -137,7 +137,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Pink300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink300" parent="">
         <item name="colorPrimary">@color/Pink300primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink300primaryDarkColor</item>
         <item name="colorAccent">@color/Pink300primaryLightColor</item>
@@ -145,7 +145,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Pink400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink400" parent="">
         <item name="colorPrimary">@color/Pink400primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink400primaryDarkColor</item>
         <item name="colorAccent">@color/Pink400primaryLightColor</item>
@@ -153,7 +153,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Pink500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink500" parent="">
         <item name="colorPrimary">@color/Pink500primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink500primaryDarkColor</item>
         <item name="colorAccent">@color/Pink500primaryLightColor</item>
@@ -161,7 +161,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Pink600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink600" parent="">
         <item name="colorPrimary">@color/Pink600primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink600primaryDarkColor</item>
         <item name="colorAccent">@color/Pink600primaryLightColor</item>
@@ -169,7 +169,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Pink700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink700" parent="">
         <item name="colorPrimary">@color/Pink700primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink700primaryDarkColor</item>
         <item name="colorAccent">@color/Pink700primaryLightColor</item>
@@ -177,7 +177,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Pink800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink800" parent="">
         <item name="colorPrimary">@color/Pink800primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink800primaryDarkColor</item>
         <item name="colorAccent">@color/Pink800primaryLightColor</item>
@@ -185,7 +185,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Pink900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Pink900" parent="">
         <item name="colorPrimary">@color/Pink900primaryColor</item>
         <item name="colorPrimaryDark">@color/Pink900primaryDarkColor</item>
         <item name="colorAccent">@color/Pink900primaryLightColor</item>
@@ -193,7 +193,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Purple50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple50" parent="">
         <item name="colorPrimary">@color/Purple50primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple50primaryDarkColor</item>
         <item name="colorAccent">@color/Purple50primaryLightColor</item>
@@ -201,7 +201,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Purple100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple100" parent="">
         <item name="colorPrimary">@color/Purple100primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple100primaryDarkColor</item>
         <item name="colorAccent">@color/Purple100primaryLightColor</item>
@@ -209,7 +209,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Purple200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple200" parent="">
         <item name="colorPrimary">@color/Purple200primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple200primaryDarkColor</item>
         <item name="colorAccent">@color/Purple200primaryLightColor</item>
@@ -217,7 +217,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Purple300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple300" parent="">
         <item name="colorPrimary">@color/Purple300primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple300primaryDarkColor</item>
         <item name="colorAccent">@color/Purple300primaryLightColor</item>
@@ -225,7 +225,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Purple400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple400" parent="">
         <item name="colorPrimary">@color/Purple400primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple400primaryDarkColor</item>
         <item name="colorAccent">@color/Purple400primaryLightColor</item>
@@ -233,7 +233,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Purple500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple500" parent="">
         <item name="colorPrimary">@color/Purple500primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple500primaryDarkColor</item>
         <item name="colorAccent">@color/Purple500primaryLightColor</item>
@@ -241,7 +241,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Purple600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple600" parent="">
         <item name="colorPrimary">@color/Purple600primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple600primaryDarkColor</item>
         <item name="colorAccent">@color/Purple600primaryLightColor</item>
@@ -249,7 +249,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Purple700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple700" parent="">
         <item name="colorPrimary">@color/Purple700primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple700primaryDarkColor</item>
         <item name="colorAccent">@color/Purple700primaryLightColor</item>
@@ -257,7 +257,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Purple800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple800" parent="">
         <item name="colorPrimary">@color/Purple800primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple800primaryDarkColor</item>
         <item name="colorAccent">@color/Purple800primaryLightColor</item>
@@ -265,7 +265,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Purple900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Purple900" parent="">
         <item name="colorPrimary">@color/Purple900primaryColor</item>
         <item name="colorPrimaryDark">@color/Purple900primaryDarkColor</item>
         <item name="colorAccent">@color/Purple900primaryLightColor</item>
@@ -273,7 +273,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Indigo50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo50" parent="">
         <item name="colorPrimary">@color/Indigo50primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo50primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo50primaryLightColor</item>
@@ -281,7 +281,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Indigo100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo100" parent="">
         <item name="colorPrimary">@color/Indigo100primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo100primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo100primaryLightColor</item>
@@ -289,7 +289,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Indigo200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo200" parent="">
         <item name="colorPrimary">@color/Indigo200primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo200primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo200primaryLightColor</item>
@@ -297,7 +297,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Indigo300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo300" parent="">
         <item name="colorPrimary">@color/Indigo300primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo300primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo300primaryLightColor</item>
@@ -305,7 +305,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Indigo400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo400" parent="">
         <item name="colorPrimary">@color/Indigo400primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo400primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo400primaryLightColor</item>
@@ -313,7 +313,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Indigo500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo500" parent="">
         <item name="colorPrimary">@color/Indigo500primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo500primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo500primaryLightColor</item>
@@ -321,7 +321,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Indigo600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo600" parent="">
         <item name="colorPrimary">@color/Indigo600primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo600primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo600primaryLightColor</item>
@@ -329,7 +329,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Indigo700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo700" parent="">
         <item name="colorPrimary">@color/Indigo700primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo700primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo700primaryLightColor</item>
@@ -337,7 +337,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Indigo800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo800" parent="">
         <item name="colorPrimary">@color/Indigo800primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo800primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo800primaryLightColor</item>
@@ -345,7 +345,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Indigo900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Indigo900" parent="">
         <item name="colorPrimary">@color/Indigo900primaryColor</item>
         <item name="colorPrimaryDark">@color/Indigo900primaryDarkColor</item>
         <item name="colorAccent">@color/Indigo900primaryLightColor</item>
@@ -353,7 +353,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Blue50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue50" parent="">
         <item name="colorPrimary">@color/Blue50primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue50primaryDarkColor</item>
         <item name="colorAccent">@color/Blue50primaryLightColor</item>
@@ -361,7 +361,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Blue100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue100" parent="">
         <item name="colorPrimary">@color/Blue100primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue100primaryDarkColor</item>
         <item name="colorAccent">@color/Blue100primaryLightColor</item>
@@ -369,7 +369,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Blue200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue200" parent="">
         <item name="colorPrimary">@color/Blue200primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue200primaryDarkColor</item>
         <item name="colorAccent">@color/Blue200primaryLightColor</item>
@@ -377,7 +377,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Blue300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue300" parent="">
         <item name="colorPrimary">@color/Blue300primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue300primaryDarkColor</item>
         <item name="colorAccent">@color/Blue300primaryLightColor</item>
@@ -385,7 +385,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Blue400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue400" parent="">
         <item name="colorPrimary">@color/Blue400primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue400primaryDarkColor</item>
         <item name="colorAccent">@color/Blue400primaryLightColor</item>
@@ -393,7 +393,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Blue500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue500" parent="">
         <item name="colorPrimary">@color/Blue500primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue500primaryDarkColor</item>
         <item name="colorAccent">@color/Blue500primaryLightColor</item>
@@ -401,7 +401,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Blue600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue600" parent="">
         <item name="colorPrimary">@color/Blue600primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue600primaryDarkColor</item>
         <item name="colorAccent">@color/Blue600primaryLightColor</item>
@@ -409,7 +409,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Blue700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue700" parent="">
         <item name="colorPrimary">@color/Blue700primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue700primaryDarkColor</item>
         <item name="colorAccent">@color/Blue700primaryLightColor</item>
@@ -417,7 +417,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Blue800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue800" parent="">
         <item name="colorPrimary">@color/Blue800primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue800primaryDarkColor</item>
         <item name="colorAccent">@color/Blue800primaryLightColor</item>
@@ -425,7 +425,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Blue900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Blue900" parent="">
         <item name="colorPrimary">@color/Blue900primaryColor</item>
         <item name="colorPrimaryDark">@color/Blue900primaryDarkColor</item>
         <item name="colorAccent">@color/Blue900primaryLightColor</item>
@@ -433,7 +433,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Cyan50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan50" parent="">
         <item name="colorPrimary">@color/Cyan50primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan50primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan50primaryLightColor</item>
@@ -441,7 +441,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan100" parent="">
         <item name="colorPrimary">@color/Cyan100primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan100primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan100primaryLightColor</item>
@@ -449,7 +449,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan200" parent="">
         <item name="colorPrimary">@color/Cyan200primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan200primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan200primaryLightColor</item>
@@ -457,7 +457,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan300" parent="">
         <item name="colorPrimary">@color/Cyan300primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan300primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan300primaryLightColor</item>
@@ -465,7 +465,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan400" parent="">
         <item name="colorPrimary">@color/Cyan400primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan400primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan400primaryLightColor</item>
@@ -473,7 +473,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan500" parent="">
         <item name="colorPrimary">@color/Cyan500primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan500primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan500primaryLightColor</item>
@@ -481,7 +481,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan600" parent="">
         <item name="colorPrimary">@color/Cyan600primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan600primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan600primaryLightColor</item>
@@ -489,7 +489,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan700" parent="">
         <item name="colorPrimary">@color/Cyan700primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan700primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan700primaryLightColor</item>
@@ -497,7 +497,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Cyan800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan800" parent="">
         <item name="colorPrimary">@color/Cyan800primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan800primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan800primaryLightColor</item>
@@ -505,7 +505,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Cyan900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Cyan900" parent="">
         <item name="colorPrimary">@color/Cyan900primaryColor</item>
         <item name="colorPrimaryDark">@color/Cyan900primaryDarkColor</item>
         <item name="colorAccent">@color/Cyan900primaryLightColor</item>
@@ -513,7 +513,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Teal50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal50" parent="">
         <item name="colorPrimary">@color/Teal50primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal50primaryDarkColor</item>
         <item name="colorAccent">@color/Teal50primaryLightColor</item>
@@ -521,7 +521,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Teal100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal100" parent="">
         <item name="colorPrimary">@color/Teal100primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal100primaryDarkColor</item>
         <item name="colorAccent">@color/Teal100primaryLightColor</item>
@@ -529,7 +529,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Teal200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal200" parent="">
         <item name="colorPrimary">@color/Teal200primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal200primaryDarkColor</item>
         <item name="colorAccent">@color/Teal200primaryLightColor</item>
@@ -537,7 +537,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Teal300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal300" parent="">
         <item name="colorPrimary">@color/Teal300primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal300primaryDarkColor</item>
         <item name="colorAccent">@color/Teal300primaryLightColor</item>
@@ -545,7 +545,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Teal400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal400" parent="">
         <item name="colorPrimary">@color/Teal400primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal400primaryDarkColor</item>
         <item name="colorAccent">@color/Teal400primaryLightColor</item>
@@ -553,7 +553,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Teal500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal500" parent="">
         <item name="colorPrimary">@color/Teal500primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal500primaryDarkColor</item>
         <item name="colorAccent">@color/Teal500primaryLightColor</item>
@@ -561,7 +561,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Teal600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal600" parent="">
         <item name="colorPrimary">@color/Teal600primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal600primaryDarkColor</item>
         <item name="colorAccent">@color/Teal600primaryLightColor</item>
@@ -569,7 +569,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Teal700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal700" parent="">
         <item name="colorPrimary">@color/Teal700primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal700primaryDarkColor</item>
         <item name="colorAccent">@color/Teal700primaryLightColor</item>
@@ -577,7 +577,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Teal800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal800" parent="">
         <item name="colorPrimary">@color/Teal800primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal800primaryDarkColor</item>
         <item name="colorAccent">@color/Teal800primaryLightColor</item>
@@ -585,7 +585,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Teal900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Teal900" parent="">
         <item name="colorPrimary">@color/Teal900primaryColor</item>
         <item name="colorPrimaryDark">@color/Teal900primaryDarkColor</item>
         <item name="colorAccent">@color/Teal900primaryLightColor</item>
@@ -593,7 +593,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Green50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green50" parent="">
         <item name="colorPrimary">@color/Green50primaryColor</item>
         <item name="colorPrimaryDark">@color/Green50primaryDarkColor</item>
         <item name="colorAccent">@color/Green50primaryLightColor</item>
@@ -601,7 +601,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green100" parent="">
         <item name="colorPrimary">@color/Green100primaryColor</item>
         <item name="colorPrimaryDark">@color/Green100primaryDarkColor</item>
         <item name="colorAccent">@color/Green100primaryLightColor</item>
@@ -609,7 +609,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green200" parent="">
         <item name="colorPrimary">@color/Green200primaryColor</item>
         <item name="colorPrimaryDark">@color/Green200primaryDarkColor</item>
         <item name="colorAccent">@color/Green200primaryLightColor</item>
@@ -617,7 +617,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green300" parent="">
         <item name="colorPrimary">@color/Green300primaryColor</item>
         <item name="colorPrimaryDark">@color/Green300primaryDarkColor</item>
         <item name="colorAccent">@color/Green300primaryLightColor</item>
@@ -625,7 +625,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green400" parent="">
         <item name="colorPrimary">@color/Green400primaryColor</item>
         <item name="colorPrimaryDark">@color/Green400primaryDarkColor</item>
         <item name="colorAccent">@color/Green400primaryLightColor</item>
@@ -633,7 +633,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green500" parent="">
         <item name="colorPrimary">@color/Green500primaryColor</item>
         <item name="colorPrimaryDark">@color/Green500primaryDarkColor</item>
         <item name="colorAccent">@color/Green500primaryLightColor</item>
@@ -641,7 +641,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green600" parent="">
         <item name="colorPrimary">@color/Green600primaryColor</item>
         <item name="colorPrimaryDark">@color/Green600primaryDarkColor</item>
         <item name="colorAccent">@color/Green600primaryLightColor</item>
@@ -649,7 +649,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green700" parent="">
         <item name="colorPrimary">@color/Green700primaryColor</item>
         <item name="colorPrimaryDark">@color/Green700primaryDarkColor</item>
         <item name="colorAccent">@color/Green700primaryLightColor</item>
@@ -657,7 +657,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Green800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green800" parent="">
         <item name="colorPrimary">@color/Green800primaryColor</item>
         <item name="colorPrimaryDark">@color/Green800primaryDarkColor</item>
         <item name="colorAccent">@color/Green800primaryLightColor</item>
@@ -665,7 +665,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Green900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Green900" parent="">
         <item name="colorPrimary">@color/Green900primaryColor</item>
         <item name="colorPrimaryDark">@color/Green900primaryDarkColor</item>
         <item name="colorAccent">@color/Green900primaryLightColor</item>
@@ -673,7 +673,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Lime50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime50" parent="">
         <item name="colorPrimary">@color/Lime50primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime50primaryDarkColor</item>
         <item name="colorAccent">@color/Lime50primaryLightColor</item>
@@ -681,7 +681,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime100" parent="">
         <item name="colorPrimary">@color/Lime100primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime100primaryDarkColor</item>
         <item name="colorAccent">@color/Lime100primaryLightColor</item>
@@ -689,7 +689,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime200" parent="">
         <item name="colorPrimary">@color/Lime200primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime200primaryDarkColor</item>
         <item name="colorAccent">@color/Lime200primaryLightColor</item>
@@ -697,7 +697,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime300" parent="">
         <item name="colorPrimary">@color/Lime300primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime300primaryDarkColor</item>
         <item name="colorAccent">@color/Lime300primaryLightColor</item>
@@ -705,7 +705,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime400" parent="">
         <item name="colorPrimary">@color/Lime400primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime400primaryDarkColor</item>
         <item name="colorAccent">@color/Lime400primaryLightColor</item>
@@ -713,7 +713,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime500" parent="">
         <item name="colorPrimary">@color/Lime500primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime500primaryDarkColor</item>
         <item name="colorAccent">@color/Lime500primaryLightColor</item>
@@ -721,7 +721,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime600" parent="">
         <item name="colorPrimary">@color/Lime600primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime600primaryDarkColor</item>
         <item name="colorAccent">@color/Lime600primaryLightColor</item>
@@ -729,7 +729,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime700" parent="">
         <item name="colorPrimary">@color/Lime700primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime700primaryDarkColor</item>
         <item name="colorAccent">@color/Lime700primaryLightColor</item>
@@ -737,7 +737,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime800" parent="">
         <item name="colorPrimary">@color/Lime800primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime800primaryDarkColor</item>
         <item name="colorAccent">@color/Lime800primaryLightColor</item>
@@ -745,7 +745,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Lime900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Lime900" parent="">
         <item name="colorPrimary">@color/Lime900primaryColor</item>
         <item name="colorPrimaryDark">@color/Lime900primaryDarkColor</item>
         <item name="colorAccent">@color/Lime900primaryLightColor</item>
@@ -753,7 +753,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Yellow50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow50" parent="">
         <item name="colorPrimary">@color/Yellow50primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow50primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow50primaryLightColor</item>
@@ -761,7 +761,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow100" parent="">
         <item name="colorPrimary">@color/Yellow100primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow100primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow100primaryLightColor</item>
@@ -769,7 +769,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow200" parent="">
         <item name="colorPrimary">@color/Yellow200primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow200primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow200primaryLightColor</item>
@@ -777,7 +777,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow300" parent="">
         <item name="colorPrimary">@color/Yellow300primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow300primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow300primaryLightColor</item>
@@ -785,7 +785,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow400" parent="">
         <item name="colorPrimary">@color/Yellow400primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow400primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow400primaryLightColor</item>
@@ -793,7 +793,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow500" parent="">
         <item name="colorPrimary">@color/Yellow500primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow500primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow500primaryLightColor</item>
@@ -801,7 +801,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow600" parent="">
         <item name="colorPrimary">@color/Yellow600primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow600primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow600primaryLightColor</item>
@@ -809,7 +809,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow700" parent="">
         <item name="colorPrimary">@color/Yellow700primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow700primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow700primaryLightColor</item>
@@ -817,7 +817,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow800" parent="">
         <item name="colorPrimary">@color/Yellow800primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow800primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow800primaryLightColor</item>
@@ -825,7 +825,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Yellow900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Yellow900" parent="">
         <item name="colorPrimary">@color/Yellow900primaryColor</item>
         <item name="colorPrimaryDark">@color/Yellow900primaryDarkColor</item>
         <item name="colorAccent">@color/Yellow900primaryLightColor</item>
@@ -833,7 +833,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber50" parent="">
         <item name="colorPrimary">@color/Amber50primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber50primaryDarkColor</item>
         <item name="colorAccent">@color/Amber50primaryLightColor</item>
@@ -841,7 +841,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber100" parent="">
         <item name="colorPrimary">@color/Amber100primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber100primaryDarkColor</item>
         <item name="colorAccent">@color/Amber100primaryLightColor</item>
@@ -849,7 +849,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber200" parent="">
         <item name="colorPrimary">@color/Amber200primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber200primaryDarkColor</item>
         <item name="colorAccent">@color/Amber200primaryLightColor</item>
@@ -857,7 +857,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber300" parent="">
         <item name="colorPrimary">@color/Amber300primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber300primaryDarkColor</item>
         <item name="colorAccent">@color/Amber300primaryLightColor</item>
@@ -865,7 +865,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber400" parent="">
         <item name="colorPrimary">@color/Amber400primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber400primaryDarkColor</item>
         <item name="colorAccent">@color/Amber400primaryLightColor</item>
@@ -873,7 +873,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber500" parent="">
         <item name="colorPrimary">@color/Amber500primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber500primaryDarkColor</item>
         <item name="colorAccent">@color/Amber500primaryLightColor</item>
@@ -881,7 +881,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber600" parent="">
         <item name="colorPrimary">@color/Amber600primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber600primaryDarkColor</item>
         <item name="colorAccent">@color/Amber600primaryLightColor</item>
@@ -889,7 +889,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber700" parent="">
         <item name="colorPrimary">@color/Amber700primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber700primaryDarkColor</item>
         <item name="colorAccent">@color/Amber700primaryLightColor</item>
@@ -897,7 +897,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber800" parent="">
         <item name="colorPrimary">@color/Amber800primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber800primaryDarkColor</item>
         <item name="colorAccent">@color/Amber800primaryLightColor</item>
@@ -905,7 +905,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Amber900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Amber900" parent="">
         <item name="colorPrimary">@color/Amber900primaryColor</item>
         <item name="colorPrimaryDark">@color/Amber900primaryDarkColor</item>
         <item name="colorAccent">@color/Amber900primaryLightColor</item>
@@ -913,7 +913,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange50" parent="">
         <item name="colorPrimary">@color/Orange50primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange50primaryDarkColor</item>
         <item name="colorAccent">@color/Orange50primaryLightColor</item>
@@ -921,7 +921,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange100" parent="">
         <item name="colorPrimary">@color/Orange100primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange100primaryDarkColor</item>
         <item name="colorAccent">@color/Orange100primaryLightColor</item>
@@ -929,7 +929,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange200" parent="">
         <item name="colorPrimary">@color/Orange200primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange200primaryDarkColor</item>
         <item name="colorAccent">@color/Orange200primaryLightColor</item>
@@ -937,7 +937,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange300" parent="">
         <item name="colorPrimary">@color/Orange300primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange300primaryDarkColor</item>
         <item name="colorAccent">@color/Orange300primaryLightColor</item>
@@ -945,7 +945,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange400" parent="">
         <item name="colorPrimary">@color/Orange400primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange400primaryDarkColor</item>
         <item name="colorAccent">@color/Orange400primaryLightColor</item>
@@ -953,7 +953,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange500" parent="">
         <item name="colorPrimary">@color/Orange500primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange500primaryDarkColor</item>
         <item name="colorAccent">@color/Orange500primaryLightColor</item>
@@ -961,7 +961,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange600" parent="">
         <item name="colorPrimary">@color/Orange600primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange600primaryDarkColor</item>
         <item name="colorAccent">@color/Orange600primaryLightColor</item>
@@ -969,7 +969,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange700" parent="">
         <item name="colorPrimary">@color/Orange700primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange700primaryDarkColor</item>
         <item name="colorAccent">@color/Orange700primaryLightColor</item>
@@ -977,7 +977,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange800" parent="">
         <item name="colorPrimary">@color/Orange800primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange800primaryDarkColor</item>
         <item name="colorAccent">@color/Orange800primaryLightColor</item>
@@ -985,7 +985,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Orange900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Orange900" parent="">
         <item name="colorPrimary">@color/Orange900primaryColor</item>
         <item name="colorPrimaryDark">@color/Orange900primaryDarkColor</item>
         <item name="colorAccent">@color/Orange900primaryLightColor</item>
@@ -993,7 +993,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Brown50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown50" parent="">
         <item name="colorPrimary">@color/Brown50primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown50primaryDarkColor</item>
         <item name="colorAccent">@color/Brown50primaryLightColor</item>
@@ -1001,7 +1001,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Brown100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown100" parent="">
         <item name="colorPrimary">@color/Brown100primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown100primaryDarkColor</item>
         <item name="colorAccent">@color/Brown100primaryLightColor</item>
@@ -1009,7 +1009,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Brown200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown200" parent="">
         <item name="colorPrimary">@color/Brown200primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown200primaryDarkColor</item>
         <item name="colorAccent">@color/Brown200primaryLightColor</item>
@@ -1017,7 +1017,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Brown300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown300" parent="">
         <item name="colorPrimary">@color/Brown300primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown300primaryDarkColor</item>
         <item name="colorAccent">@color/Brown300primaryLightColor</item>
@@ -1025,7 +1025,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Brown400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown400" parent="">
         <item name="colorPrimary">@color/Brown400primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown400primaryDarkColor</item>
         <item name="colorAccent">@color/Brown400primaryLightColor</item>
@@ -1033,7 +1033,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Brown500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown500" parent="">
         <item name="colorPrimary">@color/Brown500primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown500primaryDarkColor</item>
         <item name="colorAccent">@color/Brown500primaryLightColor</item>
@@ -1041,7 +1041,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Brown600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown600" parent="">
         <item name="colorPrimary">@color/Brown600primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown600primaryDarkColor</item>
         <item name="colorAccent">@color/Brown600primaryLightColor</item>
@@ -1049,7 +1049,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Brown700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown700" parent="">
         <item name="colorPrimary">@color/Brown700primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown700primaryDarkColor</item>
         <item name="colorAccent">@color/Brown700primaryLightColor</item>
@@ -1057,7 +1057,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Brown800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown800" parent="">
         <item name="colorPrimary">@color/Brown800primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown800primaryDarkColor</item>
         <item name="colorAccent">@color/Brown800primaryLightColor</item>
@@ -1065,7 +1065,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Brown900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Brown900" parent="">
         <item name="colorPrimary">@color/Brown900primaryColor</item>
         <item name="colorPrimaryDark">@color/Brown900primaryDarkColor</item>
         <item name="colorAccent">@color/Brown900primaryLightColor</item>
@@ -1073,7 +1073,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Grey50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey50" parent="">
         <item name="colorPrimary">@color/Grey50primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey50primaryDarkColor</item>
         <item name="colorAccent">@color/Grey50primaryLightColor</item>
@@ -1081,7 +1081,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Grey100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey100" parent="">
         <item name="colorPrimary">@color/Grey100primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey100primaryDarkColor</item>
         <item name="colorAccent">@color/Grey100primaryLightColor</item>
@@ -1089,7 +1089,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Grey200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey200" parent="">
         <item name="colorPrimary">@color/Grey200primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey200primaryDarkColor</item>
         <item name="colorAccent">@color/Grey200primaryLightColor</item>
@@ -1097,7 +1097,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Grey300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey300" parent="">
         <item name="colorPrimary">@color/Grey300primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey300primaryDarkColor</item>
         <item name="colorAccent">@color/Grey300primaryLightColor</item>
@@ -1105,7 +1105,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Grey400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey400" parent="">
         <item name="colorPrimary">@color/Grey400primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey400primaryDarkColor</item>
         <item name="colorAccent">@color/Grey400primaryLightColor</item>
@@ -1113,7 +1113,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Grey500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey500" parent="">
         <item name="colorPrimary">@color/Grey500primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey500primaryDarkColor</item>
         <item name="colorAccent">@color/Grey500primaryLightColor</item>
@@ -1121,7 +1121,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="Grey600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey600" parent="">
         <item name="colorPrimary">@color/Grey600primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey600primaryDarkColor</item>
         <item name="colorAccent">@color/Grey600primaryLightColor</item>
@@ -1129,7 +1129,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Grey700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey700" parent="">
         <item name="colorPrimary">@color/Grey700primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey700primaryDarkColor</item>
         <item name="colorAccent">@color/Grey700primaryLightColor</item>
@@ -1137,7 +1137,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Grey800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey800" parent="">
         <item name="colorPrimary">@color/Grey800primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey800primaryDarkColor</item>
         <item name="colorAccent">@color/Grey800primaryLightColor</item>
@@ -1145,7 +1145,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="Grey900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Grey900" parent="">
         <item name="colorPrimary">@color/Grey900primaryColor</item>
         <item name="colorPrimaryDark">@color/Grey900primaryDarkColor</item>
         <item name="colorAccent">@color/Grey900primaryLightColor</item>
@@ -1153,7 +1153,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="BlueGrey50" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey50" parent="">
         <item name="colorPrimary">@color/BlueGrey50primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey50primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey50primaryLightColor</item>
@@ -1161,7 +1161,7 @@
         <item name="textColor">@color/textColorBlack</item>"
     </style>
 
-    <style name="BlueGrey100" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey100" parent="">
         <item name="colorPrimary">@color/BlueGrey100primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey100primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey100primaryLightColor</item>
@@ -1169,7 +1169,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="BlueGrey200" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey200" parent="">
         <item name="colorPrimary">@color/BlueGrey200primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey200primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey200primaryLightColor</item>
@@ -1177,7 +1177,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="BlueGrey300" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey300" parent="">
         <item name="colorPrimary">@color/BlueGrey300primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey300primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey300primaryLightColor</item>
@@ -1185,7 +1185,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="BlueGrey400" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey400" parent="">
         <item name="colorPrimary">@color/BlueGrey400primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey400primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey400primaryLightColor</item>
@@ -1193,7 +1193,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="BlueGrey500" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey500" parent="">
         <item name="colorPrimary">@color/BlueGrey500primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey500primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey500primaryLightColor</item>
@@ -1201,7 +1201,7 @@
         <item name="textColor">@color/textColorBlack</item>
     </style>
 
-    <style name="BlueGrey600" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey600" parent="">
         <item name="colorPrimary">@color/BlueGrey600primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey600primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey600primaryLightColor</item>
@@ -1209,7 +1209,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="BlueGrey700" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey700" parent="">
         <item name="colorPrimary">@color/BlueGrey700primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey700primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey700primaryLightColor</item>
@@ -1217,7 +1217,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="BlueGrey800" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey800" parent="">
         <item name="colorPrimary">@color/BlueGrey800primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey800primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey800primaryLightColor</item>
@@ -1225,7 +1225,7 @@
         <item name="textColor">@color/textColorWhite</item>
     </style>
 
-    <style name="BlueGrey900" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="BlueGrey900" parent="">
         <item name="colorPrimary">@color/BlueGrey900primaryColor</item>
         <item name="colorPrimaryDark">@color/BlueGrey900primaryDarkColor</item>
         <item name="colorAccent">@color/BlueGrey900primaryLightColor</item>
