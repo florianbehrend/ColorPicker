@@ -1,100 +1,115 @@
 package com.itbehrend.colorpicker;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
+import androidx.annotation.StyleRes;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.itbehrend.colorpicker.R;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class ColorPicker extends AppCompatDialogFragment{
-    private int position;
-    private final ArrayList<Integer[]> colors;
-    private Choose_Color_Listener choose_color_listener;
+/**
+ * A Material Design color-palette picker shown as a dialog.
+ *
+ * <p>Usage:
+ * <pre>{@code
+ * ColorPicker picker = ColorPicker.newInstance();
+ * picker.setOnColorSelectedListener((themeStyleRes, primaryColor) -> { ... });
+ * picker.show(getSupportFragmentManager(), "color_picker");
+ * }</pre>
+ */
+public class ColorPicker extends AppCompatDialogFragment {
 
-    public ColorPicker(){
-        colors = colors();
+    /** Number of swatch columns in the grid. */
+    private static final int SPAN_COUNT = 10;
+
+    /** Callback delivered when the user confirms a swatch with the Apply button. */
+    public interface OnColorSelectedListener {
+        /**
+         * @param themeStyleRes theme style resource (e.g. {@code R.style.Blue500}) to apply
+         * @param primaryColor  resolved ARGB primary color of the selected swatch
+         */
+        void onColorSelected(@StyleRes int themeStyleRes, @ColorInt int primaryColor);
     }
 
+    private final List<Integer[]> colors = colors();
+    private ColorPickerAdapter adapter;
+    private OnColorSelectedListener listener;
 
+    public static ColorPicker newInstance() {
+        return new ColorPicker();
+    }
+
+    public void setOnColorSelectedListener(@Nullable OnColorSelectedListener listener) {
+        this.listener = listener;
+    }
+
+    /** The palette as {@code {colorResId, styleResId}} pairs, in display order. */
+    public List<Integer[]> getColors() {
+        return colors;
+    }
 
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-
-        LayoutInflater inflater = getActivity().getLayoutInflater();
-        View view = inflater.inflate(R.layout.layout_color_picker, null);
+        View view = LayoutInflater.from(requireContext())
+                .inflate(R.layout.layout_color_picker, null);
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
-        GridLayoutManager layoutManager = new GridLayoutManager(getContext(), 10);
-        Color_Picker_Adapter adapter = new Color_Picker_Adapter(colors);
-        adapter.setOnItemClickListener(new Color_Picker_Adapter.OnItemClickListener() {
-            @Override
-            public void onItemClick(int position_temp){
-                position = position_temp;
-//                System.out.println(position_temp);
-            }
-        });
-
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setLayoutManager(new GridLayoutManager(requireContext(), SPAN_COUNT));
+        adapter = new ColorPickerAdapter(colors);
         recyclerView.setAdapter(adapter);
 
-        builder.setView(view).setTitle("Confirm").setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
-            }
-        }).setPositiveButton("Apply", new DialogInterface.OnClickListener() {
-            @RequiresApi(api = Build.VERSION_CODES.O)
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                choose_color_listener.apply(colors.get(position)[1]);
-                choose_color_listener.getPrimaryColor(Color.valueOf(ContextCompat.getColor(getContext(), colors.get(position)[0])));
-            }
+        AlertDialog dialog = new MaterialAlertDialogBuilder(requireContext())
+                .setTitle(R.string.color_picker_title)
+                .setView(view)
+                .setNegativeButton(R.string.color_picker_cancel, (d, which) -> d.dismiss())
+                // Positive listener is wired in setOnShowListener so an empty selection
+                // does not auto-dismiss the dialog.
+                .setPositiveButton(R.string.color_picker_apply, null)
+                .create();
+
+        dialog.setOnShowListener(d -> {
+            Button negative = dialog.getButton(DialogInterface.BUTTON_NEGATIVE);
+            Button positive = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
+            negative.setTextColor(Color.BLACK);
+            positive.setTextColor(Color.BLACK);
+            positive.setOnClickListener(v -> applySelection(dialog));
         });
-
-        AlertDialog colorPicker = builder.create();
-        colorPicker.setOnShowListener(new DialogInterface.OnShowListener() {
-            @Override
-            public void onShow(DialogInterface dialog) {
-                Button negativeButton = ((AlertDialog)dialog).getButton(DialogInterface.BUTTON_NEGATIVE);
-                Button positiveButton = ((AlertDialog)dialog).getButton(DialogInterface.BUTTON_POSITIVE);
-
-                negativeButton.setTextColor(Color.BLACK);
-                positiveButton.setTextColor(Color.BLACK);
-            }
-        });
-        return colorPicker;
+        return dialog;
     }
 
-    public interface Choose_Color_Listener{
-        void apply(int color);
-        void getPrimaryColor(Color color);
-    }
-
-    public ArrayList<Integer[]> getColors() {
-        return colors;
-    }
-
-    public void setChoose_color_listener(Choose_Color_Listener choose_color_listener) {
-        this.choose_color_listener = choose_color_listener;
+    private void applySelection(@NonNull Dialog dialog) {
+        int position = adapter.getSelectedPosition();
+        if (position == RecyclerView.NO_POSITION) {
+            Toast.makeText(requireContext(), R.string.color_picker_none_selected,
+                    Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (listener != null) {
+            @StyleRes int themeStyleRes = colors.get(position)[1];
+            @ColorInt int primaryColor =
+                    ContextCompat.getColor(requireContext(), colors.get(position)[0]);
+            listener.onColorSelected(themeStyleRes, primaryColor);
+        }
+        dialog.dismiss();
     }
 
     private ArrayList<Integer[]> colors() {
@@ -129,16 +144,6 @@ public class ColorPicker extends AppCompatDialogFragment{
         colors.add(new Integer[] {R.color.Purple700primaryColor, R.style.Purple700});
         colors.add(new Integer[] {R.color.Purple800primaryColor, R.style.Purple800});
         colors.add(new Integer[] {R.color.Purple900primaryColor, R.style.Purple900});
-        colors.add(new Integer[] {R.color.DeepPurple50primaryColor, R.style.DeepPurple50});
-        colors.add(new Integer[] {R.color.DeepPurple100primaryColor, R.style.DeepPurple100});
-        colors.add(new Integer[] {R.color.DeepPurple200primaryColor, R.style.DeepPurple200});
-        colors.add(new Integer[] {R.color.DeepPurple300primaryColor, R.style.DeepPurple300});
-        colors.add(new Integer[] {R.color.DeepPurple400primaryColor, R.style.DeepPurple400});
-        colors.add(new Integer[] {R.color.DeepPurple500primaryColor, R.style.DeepPurple500});
-        colors.add(new Integer[] {R.color.DeepPurple600primaryColor, R.style.DeepPurple600});
-        colors.add(new Integer[] {R.color.DeepPurple700primaryColor, R.style.DeepPurple700});
-        colors.add(new Integer[] {R.color.DeepPurple800primaryColor, R.style.DeepPurple800});
-        colors.add(new Integer[] {R.color.DeepPurple900primaryColor, R.style.DeepPurple900});
         colors.add(new Integer[] {R.color.Indigo50primaryColor, R.style.Indigo50});
         colors.add(new Integer[] {R.color.Indigo100primaryColor, R.style.Indigo100});
         colors.add(new Integer[] {R.color.Indigo200primaryColor, R.style.Indigo200});
@@ -159,16 +164,6 @@ public class ColorPicker extends AppCompatDialogFragment{
         colors.add(new Integer[] {R.color.Blue700primaryColor, R.style.Blue700});
         colors.add(new Integer[] {R.color.Blue800primaryColor, R.style.Blue800});
         colors.add(new Integer[] {R.color.Blue900primaryColor, R.style.Blue900});
-        colors.add(new Integer[] {R.color.LightBlue50primaryColor, R.style.LightBlue50});
-        colors.add(new Integer[] {R.color.LightBlue100primaryColor, R.style.LightBlue100});
-        colors.add(new Integer[] {R.color.LightBlue200primaryColor, R.style.LightBlue200});
-        colors.add(new Integer[] {R.color.LightBlue300primaryColor, R.style.LightBlue300});
-        colors.add(new Integer[] {R.color.LightBlue400primaryColor, R.style.LightBlue400});
-        colors.add(new Integer[] {R.color.LightBlue500primaryColor, R.style.LightBlue500});
-        colors.add(new Integer[] {R.color.LightBlue600primaryColor, R.style.LightBlue600});
-        colors.add(new Integer[] {R.color.LightBlue700primaryColor, R.style.LightBlue700});
-        colors.add(new Integer[] {R.color.LightBlue800primaryColor, R.style.LightBlue800});
-        colors.add(new Integer[] {R.color.LightBlue900primaryColor, R.style.LightBlue900});
         colors.add(new Integer[] {R.color.Cyan50primaryColor, R.style.Cyan50});
         colors.add(new Integer[] {R.color.Cyan100primaryColor, R.style.Cyan100});
         colors.add(new Integer[] {R.color.Cyan200primaryColor, R.style.Cyan200});
@@ -199,16 +194,6 @@ public class ColorPicker extends AppCompatDialogFragment{
         colors.add(new Integer[] {R.color.Green700primaryColor, R.style.Green700});
         colors.add(new Integer[] {R.color.Green800primaryColor, R.style.Green800});
         colors.add(new Integer[] {R.color.Green900primaryColor, R.style.Green900});
-        colors.add(new Integer[] {R.color.LightGreen50primaryColor, R.style.LightGreen50});
-        colors.add(new Integer[] {R.color.LightGreen100primaryColor, R.style.LightGreen100});
-        colors.add(new Integer[] {R.color.LightGreen200primaryColor, R.style.LightGreen200});
-        colors.add(new Integer[] {R.color.LightGreen300primaryColor, R.style.LightGreen300});
-        colors.add(new Integer[] {R.color.LightGreen400primaryColor, R.style.LightGreen400});
-        colors.add(new Integer[] {R.color.LightGreen500primaryColor, R.style.LightGreen500});
-        colors.add(new Integer[] {R.color.LightGreen600primaryColor, R.style.LightGreen600});
-        colors.add(new Integer[] {R.color.LightGreen700primaryColor, R.style.LightGreen700});
-        colors.add(new Integer[] {R.color.LightGreen800primaryColor, R.style.LightGreen800});
-        colors.add(new Integer[] {R.color.LightGreen900primaryColor, R.style.LightGreen900});
         colors.add(new Integer[] {R.color.Lime50primaryColor, R.style.Lime50});
         colors.add(new Integer[] {R.color.Lime100primaryColor, R.style.Lime100});
         colors.add(new Integer[] {R.color.Lime200primaryColor, R.style.Lime200});
@@ -249,16 +234,6 @@ public class ColorPicker extends AppCompatDialogFragment{
         colors.add(new Integer[] {R.color.Orange700primaryColor, R.style.Orange700});
         colors.add(new Integer[] {R.color.Orange800primaryColor, R.style.Orange800});
         colors.add(new Integer[] {R.color.Orange900primaryColor, R.style.Orange900});
-        colors.add(new Integer[] {R.color.DeepOrange50primaryColor, R.style.DeepOrange50});
-        colors.add(new Integer[] {R.color.DeepOrange100primaryColor, R.style.DeepOrange100});
-        colors.add(new Integer[] {R.color.DeepOrange200primaryColor, R.style.DeepOrange200});
-        colors.add(new Integer[] {R.color.DeepOrange300primaryColor, R.style.DeepOrange300});
-        colors.add(new Integer[] {R.color.DeepOrange400primaryColor, R.style.DeepOrange400});
-        colors.add(new Integer[] {R.color.DeepOrange500primaryColor, R.style.DeepOrange500});
-        colors.add(new Integer[] {R.color.DeepOrange600primaryColor, R.style.DeepOrange600});
-        colors.add(new Integer[] {R.color.DeepOrange700primaryColor, R.style.DeepOrange700});
-        colors.add(new Integer[] {R.color.DeepOrange800primaryColor, R.style.DeepOrange800});
-        colors.add(new Integer[] {R.color.DeepOrange900primaryColor, R.style.DeepOrange900});
         colors.add(new Integer[] {R.color.Brown50primaryColor, R.style.Brown50});
         colors.add(new Integer[] {R.color.Brown100primaryColor, R.style.Brown100});
         colors.add(new Integer[] {R.color.Brown200primaryColor, R.style.Brown200});
@@ -291,5 +266,4 @@ public class ColorPicker extends AppCompatDialogFragment{
         colors.add(new Integer[] {R.color.BlueGrey900primaryColor, R.style.BlueGrey900});
         return colors;
     }
-
 }

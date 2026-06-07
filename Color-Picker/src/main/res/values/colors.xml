@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#033333</color>
     <color name="colorPrimaryDark">#044444</color>
@@ -158,55 +158,15 @@
     <color name="Purple900primaryDarkColor">#12005e</color>
     <color name="Purple900transparent">#7a12005e</color>
 
-    <color name="DeepPurple50primaryColor">#ede7f6</color>
-    <color name="DeepPurple50primaryLightColor">#ffffff</color>
-    <color name="DeepPurple50primaryDarkColor">#bbb5c3</color>
-    <color name="DeepPurple50transparent">#7abbb5c3</color>
 
-    <color name="DeepPurple100primaryColor">#d1c4e9</color>
-    <color name="DeepPurple100primaryLightColor">#fff7ff</color>
-    <color name="DeepPurple100primaryDarkColor">#a094b7</color>
-    <color name="DeepPurple100transparent">#7aa094b7</color>
 
-    <color name="DeepPurple200primaryColor">#b39ddb</color>
-    <color name="DeepPurple200primaryLightColor">#e6ceff</color>
-    <color name="DeepPurple200primaryDarkColor">#836fa9</color>
-    <color name="DeepPurple200transparent">#7a836fa9</color>
 
-    <color name="DeepPurple300primaryColor">#9575cd</color>
-    <color name="DeepPurple300primaryLightColor">#c7a4ff</color>
-    <color name="DeepPurple300primaryDarkColor">#65499c</color>
-    <color name="DeepPurple300transparent">#7a65499c</color>
 
-    <color name="DeepPurple400primaryColor">#7e57c2</color>
-    <color name="DeepPurple400primaryLightColor">#b085f5</color>
-    <color name="DeepPurple400primaryDarkColor">#4d2c91</color>
-    <color name="DeepPurple400transparent">#7a4d2c91</color>
 
-    <color name="DeepPurple500primaryColor">#673ab7</color>
-    <color name="DeepPurple500primaryLightColor">#9a67ea</color>
-    <color name="DeepPurple500primaryDarkColor">#320b86</color>
-    <color name="DeepPurple500transparent">#7a320b86</color>
 
-    <color name="DeepPurple600primaryColor">#5e35b1</color>
-    <color name="DeepPurple600primaryLightColor">#9162e4</color>
-    <color name="DeepPurple600primaryDarkColor">#280680</color>
-    <color name="DeepPurple600transparent">#7a280680</color>
 
-    <color name="DeepPurple700primaryColor">#512da8</color>
-    <color name="DeepPurple700primaryLightColor">#8559da</color>
-    <color name="DeepPurple700primaryDarkColor">#140078</color>
-    <color name="DeepPurple700transparent">#7a140078</color>
 
-    <color name="DeepPurple800primaryColor">#4527a0</color>
-    <color name="DeepPurple800primaryLightColor">#7953d2</color>
-    <color name="DeepPurple800primaryDarkColor">#000070</color>
-    <color name="DeepPurple800transparent">#7a000070</color>
 
-    <color name="DeepPurple900primaryColor">#311b92</color>
-    <color name="DeepPurple900primaryLightColor">#6746c3</color>
-    <color name="DeepPurple900primaryDarkColor">#000063</color>
-    <color name="DeepPurple900transparent">#7a000063</color>
 
     <color name="Indigo50primaryColor">#e8eaf6</color>
     <color name="Indigo50primaryLightColor">#ffffff</color>
@@ -309,55 +269,15 @@
     <color name="Blue900primaryDarkColor">#002171</color>
     <color name="Blue900transparent">#7a002171</color>
 
-    <color name="LightBlue50primaryColor">#e1f5fe</color>
-    <color name="LightBlue50primaryLightColor">#ffffff</color>
-    <color name="LightBlue50primaryDarkColor">#afc2cb</color>
-    <color name="LightBlue50transparent">#7aafc2cb</color>
 
-    <color name="LightBlue100primaryColor">#b3e5fc</color>
-    <color name="LightBlue100primaryLightColor">#e6ffff</color>
-    <color name="LightBlue100primaryDarkColor">#82b3c9</color>
-    <color name="LightBlue100transparent">#7a82b3c9</color>
 
-    <color name="LightBlue200primaryColor">#81d4fa</color>
-    <color name="LightBlue200primaryLightColor">#b6ffff</color>
-    <color name="LightBlue200primaryDarkColor">#4ba3c7</color>
-    <color name="LightBlue200transparent">#7a4ba3c7</color>
 
-    <color name="LightBlue300primaryColor">#4fc3f7</color>
-    <color name="LightBlue300primaryLightColor">#8bf6ff</color>
-    <color name="LightBlue300primaryDarkColor">#0093c4</color>
-    <color name="LightBlue300transparent">#7a0093c4</color>
 
-    <color name="LightBlue400primaryColor">#29b6f6</color>
-    <color name="LightBlue400primaryLightColor">#73e8ff</color>
-    <color name="LightBlue400primaryDarkColor">#0086c3</color>
-    <color name="LightBlue400transparent">#7a0086c3</color>
 
-    <color name="LightBlue500primaryColor">#03a9f4</color>
-    <color name="LightBlue500primaryLightColor">#67daff</color>
-    <color name="LightBlue500primaryDarkColor">#007ac1</color>
-    <color name="LightBlue500transparent">#7a007ac1</color>
 
-    <color name="LightBlue600primaryColor">#039be5</color>
-    <color name="LightBlue600primaryLightColor">#63ccff</color>
-    <color name="LightBlue600primaryDarkColor">#006db3</color>
-    <color name="LightBlue600transparent">#7a006db3</color>
 
-    <color name="LightBlue700primaryColor">#0288d1</color>
-    <color name="LightBlue700primaryLightColor">#5eb8ff</color>
-    <color name="LightBlue700primaryDarkColor">#005b9f</color>
-    <color name="LightBlue700transparent">#7a005b9f</color>
 
-    <color name="LightBlue800primaryColor">#0277bd</color>
-    <color name="LightBlue800primaryLightColor">#58a5f0</color>
-    <color name="LightBlue800primaryDarkColor">#004c8c</color>
-    <color name="LightBlue800transparent">#7a004c8c</color>
 
-    <color name="LightBlue900primaryColor">#01579b</color>
-    <color name="LightBlue900primaryLightColor">#4f83cc</color>
-    <color name="LightBlue900primaryDarkColor">#002f6c</color>
-    <color name="LightBlue900transparent">#7a002f6c</color>
 
     <color name="Cyan50primaryColor">#e0f7fa</color>
     <color name="Cyan50primaryLightColor">#ffffff</color>
@@ -509,55 +429,15 @@
     <color name="Green900primaryDarkColor">#003300</color>
     <color name="Green900transparent">#7a003300</color>
 
-    <color name="LightGreen50primaryColor">#f1f8e9</color>
-    <color name="LightGreen50primaryLightColor">#ffffff</color>
-    <color name="LightGreen50primaryDarkColor">#bec5b7</color>
-    <color name="LightGreen50transparent">#7abec5b7</color>
 
-    <color name="LightGreen100primaryColor">#dcedc8</color>
-    <color name="LightGreen100primaryLightColor">#fffffb</color>
-    <color name="LightGreen100primaryDarkColor">#aabb97</color>
-    <color name="LightGreen100transparent">#7aaabb97</color>
 
-    <color name="LightGreen200primaryColor">#c5e1a5</color>
-    <color name="LightGreen200primaryLightColor">#f8ffd7</color>
-    <color name="LightGreen200primaryDarkColor">#94af76</color>
-    <color name="LightGreen200transparent">#7a94af76</color>
 
-    <color name="LightGreen300primaryColor">#aed581</color>
-    <color name="LightGreen300primaryLightColor">#e1ffb1</color>
-    <color name="LightGreen300primaryDarkColor">#7da453</color>
-    <color name="LightGreen300transparent">#7a7da453</color>
 
-    <color name="LightGreen400primaryColor">#9ccc65</color>
-    <color name="LightGreen400primaryLightColor">#cfff95</color>
-    <color name="LightGreen400primaryDarkColor">#6b9b37</color>
-    <color name="LightGreen400transparent">#7a6b9b37</color>
 
-    <color name="LightGreen500primaryColor">#8bc34a</color>
-    <color name="LightGreen500primaryLightColor">#bef67a</color>
-    <color name="LightGreen500primaryDarkColor">#5a9216</color>
-    <color name="LightGreen500transparent">#7a5a9216</color>
 
-    <color name="LightGreen600primaryColor">#7cb342</color>
-    <color name="LightGreen600primaryLightColor">#aee571</color>
-    <color name="LightGreen600primaryDarkColor">#4b830d</color>
-    <color name="LightGreen600transparent">#7a4b830d</color>
 
-    <color name="LightGreen700primaryColor">#689f38</color>
-    <color name="LightGreen700primaryLightColor">#99d066</color>
-    <color name="LightGreen700primaryDarkColor">#387002</color>
-    <color name="LightGreen700transparent">#7a387002</color>
 
-    <color name="LightGreen800primaryColor">#558b2f</color>
-    <color name="LightGreen800primaryLightColor">#85bb5c</color>
-    <color name="LightGreen800primaryDarkColor">#255d00</color>
-    <color name="LightGreen800transparent">#7a255d00</color>
 
-    <color name="LightGreen900primaryColor">#33691e</color>
-    <color name="LightGreen900primaryLightColor">#629749</color>
-    <color name="LightGreen900primaryDarkColor">#003d00</color>
-    <color name="LightGreen900transparent">#7a003d00</color>
 
     <color name="Lime50primaryColor">#f9fbe7</color>
     <color name="Lime50primaryLightColor">#ffffff</color>
@@ -759,55 +639,15 @@
     <color name="Orange900primaryDarkColor">#ac1900</color>
     <color name="Orange900transparent">#7aac1900</color>
 
-    <color name="DeepOrange50primaryColor">#fbe9e7</color>
-    <color name="DeepOrange50primaryLightColor">#ffffff</color>
-    <color name="DeepOrange50primaryDarkColor">#c8b7b5</color>
-    <color name="DeepOrange50transparent">#7ac8b7b5</color>
 
-    <color name="DeepOrange100primaryColor">#ffccbc</color>
-    <color name="DeepOrange100primaryLightColor">#ffffee</color>
-    <color name="DeepOrange100primaryDarkColor">#cb9b8c</color>
-    <color name="DeepOrange100transparent">#7acb9b8c</color>
 
-    <color name="DeepOrange200primaryColor">#ffab91</color>
-    <color name="DeepOrange200primaryLightColor">#ffddc1</color>
-    <color name="DeepOrange200primaryDarkColor">#c97b63</color>
-    <color name="DeepOrange200transparent">#7ac97b63</color>
 
-    <color name="DeepOrange300primaryColor">#ff8a65</color>
-    <color name="DeepOrange300primaryLightColor">#ffbb93</color>
-    <color name="DeepOrange300primaryDarkColor">#c75b39</color>
-    <color name="DeepOrange300transparent">#7ac75b39</color>
 
-    <color name="DeepOrange400primaryColor">#ff7043</color>
-    <color name="DeepOrange400primaryLightColor">#ffa270</color>
-    <color name="DeepOrange400primaryDarkColor">#c63f17</color>
-    <color name="DeepOrange400transparent">#7ac63f17</color>
 
-    <color name="DeepOrange500primaryColor">#ff5722</color>
-    <color name="DeepOrange500primaryLightColor">#ff8a50</color>
-    <color name="DeepOrange500primaryDarkColor">#c41c00</color>
-    <color name="DeepOrange500transparent">#7ac41c00</color>
 
-    <color name="DeepOrange600primaryColor">#f4511e</color>
-    <color name="DeepOrange600primaryLightColor">#ff844c</color>
-    <color name="DeepOrange600primaryDarkColor">#b91400</color>
-    <color name="DeepOrange600transparent">#7ab91400</color>
 
-    <color name="DeepOrange700primaryColor">#e64a19</color>
-    <color name="DeepOrange700primaryLightColor">#ff7d47</color>
-    <color name="DeepOrange700primaryDarkColor">#ac0800</color>
-    <color name="DeepOrange700transparent">#7aac0800</color>
 
-    <color name="DeepOrange800primaryColor">#d84315</color>
-    <color name="DeepOrange800primaryLightColor">#ff7543</color>
-    <color name="DeepOrange800primaryDarkColor">#9f0000</color>
-    <color name="DeepOrange800transparent">#7a9f0000</color>
 
-    <color name="DeepOrange900primaryColor">#bf360c</color>
-    <color name="DeepOrange900primaryLightColor">#f9683a</color>
-    <color name="DeepOrange900primaryDarkColor">#870000</color>
-    <color name="DeepOrange900transparent">#7a870000</color>
 
     <color name="Brown50primaryColor">#efebe9</color>
     <color name="Brown50primaryLightColor">#ffffff</color>

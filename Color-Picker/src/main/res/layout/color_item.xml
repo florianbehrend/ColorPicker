@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.itbehrend.colorpicker.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/colorItemLayout"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="3dp"
     android:clickable="true"
     android:focusable="true">
 
-    <RelativeLayout
+    <ImageView
+        android:id="@+id/colorItem"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:id="@+id/linearColorItemLayout">
+        android:layout_height="match_parent"
+        android:background="@drawable/swatch_shape"
+        android:src="@drawable/selector"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/color" />
 
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:id="@+id/colorItem"
-            android:src="@drawable/selector"
-            android:contentDescription="@string/color"/>
-
-    </RelativeLayout>
-
-
-
-</androidx.cardview.widget.CardView>
+</com.itbehrend.colorpicker.SquareFrameLayout>

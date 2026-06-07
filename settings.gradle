@@ -1,4 +1,4 @@
 rootProject.name = "ColorPicker"
-include ':sample'
+include ':app'
 include ':Color-Picker'
 

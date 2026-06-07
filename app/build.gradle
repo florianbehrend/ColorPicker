@@ -1,16 +1,19 @@
 plugins {
-    id 'com.android.library'
-    id 'maven-publish'
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
     compileSdkVersion 37
 
     defaultConfig {
+        applicationId "com.itbehrend.colorpicker"
         minSdkVersion 21
+        targetSdkVersion 37
+        versionCode 1
+        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
     }
 
     buildTypes {
@@ -24,46 +27,20 @@ android {
         targetCompatibility JavaVersion.VERSION_11
     }
     namespace 'com.itbehrend.colorpicker'
-
-    publishing {
-        singleVariant('release') {
-            withSourcesJar()
-        }
-    }
-    lint {
-        targetSdk 37
-    }
-    testOptions {
-        targetSdk 37
-    }
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':Color-Picker')
     implementation 'androidx.appcompat:appcompat:1.7.1'
-    // Pinned: core 1.18+ requires minSdk 23, project is minSdk 21.
-    //noinspection GradleDependency
-    implementation 'androidx.core:core:1.17.0'
-    implementation 'androidx.recyclerview:recyclerview:1.4.0'
     // Pinned: material 1.14+ requires minSdk 23, project is minSdk 21.
     //noinspection GradleDependency
     implementation 'com.google.android.material:material:1.13.0'
-
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    // Pinned: core 1.18+ requires minSdk 23, project is minSdk 21.
+    //noinspection GradleDependency
+    implementation 'androidx.core:core-ktx:1.17.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.3.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.7.0'
-}
-
-// Published via JitPack: com.github.<user>/<repo>:<release-tag>
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.florianbehrend'
-                artifactId = 'Color-Picker'
-                version = '1.0'
-            }
-        }
-    }
 }
