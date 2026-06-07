@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 37
+    compileSdkVersion 36
 
     defaultConfig {
         applicationId "com.itbehrend.colorpicker"
         minSdkVersion 21
-        targetSdkVersion 37
+        targetSdkVersion 36
         versionCode 1
         versionName "1.3"
 

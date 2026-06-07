@@ -27,7 +27,7 @@ The user picks a color and taps **Apply**. Your app then receives two things: th
 | | |
 |---|---|
 | **minSdk** | 21 (Android 5.0 Lollipop) |
-| **compileSdk / targetSdk** | 37 |
+| **compileSdk / targetSdk** | 36 |
 | **Language** | Java 11 |
 
 The dialog uses Material Components, so the host activity's theme must extend a `Theme.MaterialComponents.*` (or `Theme.Material3.*`) theme.

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    compileSdkVersion 37
+    compileSdkVersion 36
 
     defaultConfig {
         minSdkVersion 21
@@ -31,10 +31,10 @@ android {
         }
     }
     lint {
-        targetSdk 37
+        targetSdk 36
     }
     testOptions {
-        targetSdk 37
+        targetSdk 36
     }
 }
 
