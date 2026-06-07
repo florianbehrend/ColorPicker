@@ -1,14 +1,20 @@
 name: Release
 
 # Build, test, and publish a GitHub Release when a commit whose message starts
-# with "release:" is pushed to main. The message (minus the prefix) becomes the
-# release notes. A new semver tag is auto-derived (patch bump) and the library
-# AAR is attached. JitPack consumes the created tag
-# (com.github.<user>.<repo>:Color-Picker:<tag>).
+# with "release:" is pushed to master (or when run manually via the Actions tab).
+# The message (minus the prefix) becomes the release notes. A new semver tag is
+# auto-derived (patch bump) and the library AAR is attached. JitPack consumes the
+# created tag (com.github.<user>.<repo>:Color-Picker:<tag>).
 
 on:
   push:
-    branches: [main]
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      notes:
+        description: 'Release notes (used when run manually)'
+        required: false
+        default: ''
 
 # Prevent overlapping release runs from racing on tags.
 concurrency:
@@ -20,8 +26,8 @@ permissions:
 
 jobs:
   release:
-    # Only run for commits explicitly marked for release.
-    if: startsWith(github.event.head_commit.message, 'release:')
+    # Run on manual dispatch, or for push commits marked with the "release:" prefix.
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'release:')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -53,10 +59,16 @@ jobs:
         id: notes
         env:
           COMMIT_MSG: ${{ github.event.head_commit.message }}
+          INPUT_NOTES: ${{ github.event.inputs.notes }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
-          # Drop the leading "release:" prefix and any whitespace right after it.
-          notes="${COMMIT_MSG#release:}"
-          notes="${notes#"${notes%%[![:space:]]*}"}"
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            notes="$INPUT_NOTES"
+          else
+            # Drop the leading "release:" prefix and any whitespace right after it.
+            notes="${COMMIT_MSG#release:}"
+            notes="${notes#"${notes%%[![:space:]]*}"}"
+          fi
           {
             echo "notes<<__EOF__"
             printf '%s\n' "$notes"
@@ -69,7 +81,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           default_bump: patch
-          release_branches: main
+          release_branches: master
           tag_prefix: v
 
       - name: Create GitHub Release
