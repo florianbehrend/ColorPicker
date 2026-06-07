@@ -27,7 +27,7 @@ The user picks a color and taps **Apply**. Your app then receives two things: th
 | | |
 |---|---|
 | **minSdk** | 21 (Android 5.0 Lollipop) |
-| **compileSdk / targetSdk** | 36 |
+| **compileSdk / targetSdk** | 37 |
 | **Language** | Java 11 |
 
 The dialog uses Material Components, so the host activity's theme must extend a `Theme.MaterialComponents.*` (or `Theme.Material3.*`) theme.
@@ -76,7 +76,7 @@ The callback runs only when the user taps **Apply** with a color selected. Tappi
 
 ### Applying the selected theme
 
-Every swatch has a matching theme named `R.style.<Family><Shade>`, for example `R.style.DeepPurple700`. Each theme sets `colorPrimary`, `colorPrimaryDark`, `colorAccent`, and a custom `transparent` attribute.
+Every swatch has a matching theme named `R.style.<Family><Shade>`, for example `R.style.Blue700`. Each theme sets `colorPrimary`, `colorPrimaryDark`, `colorAccent`, and a custom `transparent` attribute.
 
 Apply the theme before your UI is drawn:
 
@@ -116,7 +116,7 @@ The `:app` module is a working demo. Build and install it like this:
 ./gradlew test                             # run the unit tests
 ```
 
-You need **JDK 17 or newer**, because Android Gradle Plugin 8.x requires it. Point `JAVA_HOME` at a JDK 17 — for example, the one that ships with Android Studio.
+You need **JDK 17 or newer**, because Android Gradle Plugin 9.x requires it. Point `JAVA_HOME` at a JDK 17 — for example, the one that ships with Android Studio.
 
 ## API reference
 

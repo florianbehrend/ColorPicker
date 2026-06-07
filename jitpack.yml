@@ -1,0 +1,5 @@
+# JitPack build config. AGP 9 requires JDK 17.
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :Color-Picker:publishToMavenLocal -x test
