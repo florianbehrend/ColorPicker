@@ -107,6 +107,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ needs.check.outputs.version }}
-          name: v${{ needs.check.outputs.version }}
+          name: ColorPicker v${{ needs.check.outputs.version }}
           body: ${{ steps.notes.outputs.notes }}
           files: Color-Picker/build/outputs/aar/Color-Picker-release.aar
